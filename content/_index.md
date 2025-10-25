@@ -108,7 +108,4 @@ sections:
         # Card background color (CSS class)
         css_class: 'bg-primary-300'
         css_style: ''
-  - block: visitor-map
-    content:
-      title: 'Visitor Map'
 ---
