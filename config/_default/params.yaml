@@ -35,7 +35,7 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      text: 'Your Name'
+      text: 'Chengran YUAN'
 
 # Site footer
 footer:
@@ -58,3 +58,8 @@ features:
     enable: false
   privacy_pack:
     enable: false
+
+  # Power-ups and sponsorship
+i_am_a_sponsor: true
+power_ups:
+  hide_published_with: true

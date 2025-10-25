@@ -1,20 +1,19 @@
 ---
 # Display name
-title: Alex Johnson
+title: "Chengran Yuan"
 
 # Name pronunciation (optional)
-name_pronunciation: ''
+name_pronunciation: "" 
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
-
+first_name: Chengran
+last_name: Yuan
 # Pronouns (optional)
 pronouns: he/him
 
 # Status emoji
 status:
-  icon: 🚀
+  icon: 
 
 # Is this the primary user of the site?
 superuser: true
@@ -23,147 +22,159 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: PhD student
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Naitional University of Singapore
+    url: https://nus.edu.sg/
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
-  - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+  - icon: envelope
+    url: 'mailto:chengran.yuan@u.nus.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
+  # - icon: brands/x
+  #   url: https://twitter.com/
+  # - icon: brands/instagram
+  #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/Chengran-Yuan
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
+    url: https://www.linkedin.com/in/chengranyuan/
   - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://scholar.google.com/citations?hl=en&user=syZH1z4AAAAJ&inst=3212728378801010220
+  # - icon: academicons/orcid
+  #   url: https://orcid.org/
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
-  - AI Ethics
+  - End-to-end Autonomous Driving
+  - Motion Planning
+  - World Model
+  - VLM/VLAs
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: PhD Autonomous Driving
+    institution: National University of Singapore, Singapore
+    date_start: 2022-08-01
+    date_end: 
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
+       Supervised by [Prof Marcelo H. Ang Jr.](https://cde.nus.edu.sg/me/staff/ang-jr-marcelo-h/). 
+       Research focus: End-to-end motion planning and vision-language models for autonomous driving systems.
+    # button:
+    #   text: 'Read Thesis'
+    #   url: 'https://example.com'
+  - area: MSc Mechanical Engineering
+    institution: National University of Singapore, Singapore
+    date_start: 2021-08-01
+    date_end: 2022-06-01
+    summary: | 
+      Research focus: 3D Visual Place Recognition for outdoor Environment
     button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    date_start: 2013-09-01
-    date_end: 2015-05-31
-    summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
-
+      text: Slides
+      url: /uploads/ME5001.pdf
+  
+  - area: BSc Electrical Engineering and Automation
+    institution: Soochow University, China
+    date_start: 2017-09-01
+    date_end: 2021-06-30
+    # summary: |
+      
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    company_logo: ''
-    date_start: 2020-01-01
+  - position: Research Engineer
+    company_name: National University of Singapore
+    company_url: 'https://nus.edu.sg/'
+    company_logo: '![NUS](image.png)'
+    date_start: 2022-09-19
     date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
+    # summary: |1-
+    #   Responsibilities include:
+  - position: Planning Algorithm Intern
+    company_name: MooVita
+    company_url: 'https://www.moovita.com/'
     company_logo: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+    date_start: 2021-12-01
+    date_end: 2022-06-30
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Worked on trajectory prediction and planning, autonomous driving simulation & stack (Cognata, LGSVL, Carla, Apollo and etc.)  
+  
 
 # Skills
 # Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
-      - name: Python & PyTorch
+      - name: Python
         description: ''
-        percent: 95
+        percent: 80
         icon: code-bracket
-      - name: Machine Learning
+      - name: Deep Learning
         description: ''
         percent: 100
-        icon: chart-bar
-      - name: Cloud Computing (AWS/GCP)
-        description: ''
-        percent: 85
-        icon: cloud
+        icon: code-bracket
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
+      - name: Hiking
+        description: ''
+        percent: 60
+        icon: person-simple-walk
+      # - name: Photography
+      #   description: ''
+      #   percent: 80
+      #   icon: camera
+      - name: FPV
         description: ''
         percent: 80
-        icon: person-simple-walk
-      - name: Building Custom PCs
-        description: ''
-        percent: 90
-        icon: cpu-chip
-      - name: Sci-Fi Reading
-        description: ''
-        percent: 70
-        icon: book-open
+        icon: eye
 
-languages:
-  - name: English
-    percent: 100
-  - name: Spanish
-    percent: 50
+
+# languages:
+  # - name: English
+    # percent: 75
+  # - name: Chinese
+    # percent: 100
+
 
 # Awards.
 #   Add/remove as many awards below as you like.
 #   Only `title`, `awarder`, and `date` are required.
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
-    summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
-    summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
-    summary: |
-      Recognized for contributions to scaling laws in deep learning.
+# awards:
+#   - title: Neural Networks and Deep Learning
+#     url: https://www.coursera.org/learn/neural-networks-deep-learning
+#     date: '2023-11-25'
+#     awarder: Coursera
+#     icon: coursera
+#     summary: |
+#       I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
+#   - title: Blockchain Fundamentals
+#     url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
+#     date: '2023-07-01'
+#     awarder: edX
+#     icon: edx
+#     summary: |
+#       Learned:
+#       - Synthesize your own blockchain solutions
+#       - Gain an in-depth understanding of the specific mechanics of Bitcoin
+#       - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
+#   - title: 'Object-Oriented Programming in R'
+#     url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
+#     certificate_url: https://www.datacamp.com
+#     date: '2023-01-21'
+#     awarder: datacamp
+#     icon: datacamp
+#     summary: |
+#       Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+## About Me
+
+Hi there! I’m Yuan Chengran (袁成冉), a PhD student at the [Advanced Robotics Centre](https://cde.nus.edu.sg/research/research-centres-and-facilities/advanced-robotics-centre-arc/)
+, National University of Singapore, supervised by [Prof. Marcelo Ang](https://cde.nus.edu.sg/me/staff/ang-jr-marcelo-h/).
+
+My research focuses on end-to-end autonomous driving, and I’m currently exploring world models and vision-language-action (VLA) models for autonomous driving applications.
+
+Feel free to reach out if you’re interested in academic collaboration or research discussions — I’d love to connect!

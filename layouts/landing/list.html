@@ -1,0 +1,26 @@
+{{ define "main" }}
+<!-- Google Fonts for custom typography -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=ZCOOL+KaiTi&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+<style>
+.custom-name-size h1 {
+  font-size: 1.5rem !important;
+  /* Font family: Roboto for English, multiple Chinese fonts as fallbacks */
+  font-family: 'Roboto',
+               'ZCOOL KaiTi', /* 楷体网络字体 */
+               'KaiTi', 'STKaiti', /* 系统楷体 */
+               serif !important;
+  line-height: 1.4 !important; /* Adjust line spacing for two-line name */
+  white-space: pre-line !important; /* Allow line breaks */
+}
+
+@media (min-width: 1024px) {
+  .custom-name-size h1 {
+    font-size: 1.75rem !important;
+  }
+}
+</style>
+{{ partial "landing_page.html" . }}
+{{ end }}
