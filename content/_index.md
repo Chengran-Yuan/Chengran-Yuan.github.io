@@ -15,9 +15,9 @@ sections:
       username: admin
       text: ''
       # Show a call-to-action button under your biography? (optional)
-      button:
-        text: Download CV
-        url: uploads/resume.pdf
+      # button:
+      #   text: Download CV
+      #   url: uploads/resume.pdf
       headings:
         about: ''
         education: ''
@@ -66,7 +66,7 @@ sections:
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: blog
+      page_type: news
       # Choose how many pages you would like to display (0 = all pages)
       count: 10
       # Filter on criteria
