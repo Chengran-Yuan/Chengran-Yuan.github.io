@@ -83,7 +83,7 @@ education:
       
 work:
   - position: Research Engineer
-    company_name: National University of Singapore
+    company_name: National University of Singapore, Singapore
     company_url: 'https://nus.edu.sg/'
     company_logo: '![NUS](image.png)'
     date_start: 2022-09-19
@@ -91,7 +91,7 @@ work:
     # summary: |1-
     #   Responsibilities include:
   - position: Planning Algorithm Intern
-    company_name: MooVita
+    company_name: MooVita, Singapore
     company_url: 'https://www.moovita.com/'
     company_logo: ''
     date_start: 2021-12-01
