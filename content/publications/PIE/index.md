@@ -36,16 +36,16 @@ links:
   id: 2509.18609
 # - type: code
 #   url: https://github.com/HugoBlox/hugo-blox-builder
-- type: slides
-  url: https://www.slideshare.net/
+# - type: slides
+#   url: https://www.slideshare.net/
 # - type: dataset
 #   url: "#"
 # - type: poster
 #   url: "#"
 # - type: source
 #   url: "#"
-- type: video
-  url: https://youtube.com
+# - type: video
+#   url: https://youtube.com
 # - type: custom
 #   label: Custom Link
 #   url: http://example.org
